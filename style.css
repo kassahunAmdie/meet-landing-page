@@ -86,7 +86,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* End CSS reset */
 
-/* utilities */
+/* utilities and components */
 
 .button {
   padding: 16px 40px; 
@@ -95,6 +95,7 @@ p, h1, h2, h3, h4, h5, h6 {
   color: var(--white);
   line-height: 1.5;
   font-weight: var(--fw-bold);
+  white-space: nowrap;
  }
  
  .button.green {
@@ -117,7 +118,6 @@ p, h1, h2, h3, h4, h5, h6 {
   color: var(--slate-600);
   line-height: 1.5;
   text-wrap: pretty;
-  max-width: 40ch;
 }
 
 .header-preset {
@@ -127,15 +127,13 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   justify-self: center;
   text-wrap: balance;
-  max-width: 10ch;  
 }
 
 .header-2-preset {
   font-size: var(--fs-500);
   font-weight: var(--fw-bold);
   color: var(--slate-900);
-  text-wrap: balance;
-  max-width: 15ch;
+  max-width: 19ch;
 }
 
 .parg-preset-style-2 {
@@ -447,7 +445,6 @@ body {
       justify-content: center;
       text-align: center;
       margin-block: 23px;
-      padding-inline: unset;
     }
 
     .button {
@@ -477,6 +474,7 @@ body {
 
     .header-2-preset {
       font-size: var(--fs-600);
+      max-width: 16ch;
     }
 
     .parg-preset {
@@ -494,11 +492,11 @@ body {
       text-align: start;
       margin-block-start: 80px;
       margin-block-end: 112px;
-      align-items: flex-start;
+      align-items: self-start;
     }
 
     .footer__heading {
-      grid-column: 1 / 5;
+      grid-column: 1 / 6;
       font-size: var(--fs-600);
     }
 
