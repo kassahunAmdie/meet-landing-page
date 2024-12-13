@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/kassahunAmdie/meet-landing-page](https://your-solution-url.com)
-- Live Site URL: [https://kassahunamdie.github.io/meet-landing-page/](https://your-live-site-url.com)
+- Live Site URL: [https://meet-landing-page-challenge.netlify.app/](https://your-live-site-url.com)
 
 ## My process
 
